@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../button/Button';
 import './hero.scss';
-import {CgPlayButtonO } from 'react-icons/cg'
+import { CgPlayButtonO } from 'react-icons/cg';
 
 function Hero() {
   return (
@@ -14,7 +14,7 @@ function Hero() {
           GET STARTED
         </Button>
         <Button className="btns" buttonSize="btn--large">
-          WATCH TRAILER <CgPlayButtonO className='play-circle' />
+          WATCH TRAILER <CgPlayButtonO className="play-circle" />
         </Button>
       </div>
     </div>
