@@ -6,6 +6,7 @@ import Home from './components/pages/Home';
 import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 import SignUP from './components/pages/SignUP';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
             <SignUP />
           </Route>
         </Switch>
+
+        <Footer />
       </Router>
     </div>
   );
