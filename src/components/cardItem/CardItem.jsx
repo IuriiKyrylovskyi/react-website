@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './cardItem.scss';
 
 function CardItem(props) {
   const { path, label, src, text } = props;
